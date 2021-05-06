@@ -1,0 +1,52 @@
+@media only screen and (max-width: 750px) {
+
+    .work_header {
+        background-color: rgb(36, 47, 53, 70%);
+        padding: 14px 0 18px;
+    }
+
+    .work_background {
+        background-image: url("../img/work_back_mobile.jpg");
+        height: 1337px;
+        margin-bottom: 241px;
+    }
+
+    .work_katalog h3 {
+        font-size: 28px;
+        margin-bottom: 39px;
+        font-family: 'Open Sans';
+        font-weight: normal;
+    }
+
+    .work_katalog h2 {
+        font-size: 90px;
+        font-family: 'Open Sans';
+        font-weight: bold;
+    }
+
+    .work_katalog p {
+        font-size: 29px;
+        max-width: 675px;
+        line-height: 46px;
+    }
+
+    .work_flex_container {
+        display: block;
+        padding-left: 0;
+    }
+
+    .work_flex_container img {
+        display: block;
+        width: 100%;
+
+    }
+
+    .footer {
+        display: block;
+    }
+
+    .footer p {
+        font-size: 30px;
+        line-height: 60px;
+    }
+}

@@ -44,6 +44,8 @@
     font-size: 13px;
     text-align: center;
     margin-bottom: 25px;
+    font-family: 'Open Sans';
+    font-weight: 600;
 }
 
 .work_katalog h2 {
@@ -51,17 +53,50 @@
     color: #021725;
     text-align: center;
     margin-bottom: 56px;
+    font-family: 'Open Sans';
+    font-weight: 600;
+}
+
+.work_katalog p {
+    font-size: 18px;
+    color: #021725;
+    text-align: center;
+    font-family: 'Open Sans';
+    font-weight: 300;
+    max-width: 770px;
+    margin: auto;
+    margin-bottom: 137px;
+    line-height: 33px;
 }
 
 .work_flex_container {
     display: flex;
     flex-wrap: wrap;
     padding-left: 2%;
-    margin-bottom: 159px;
+    margin-bottom: 6px;
 }
 
 .work_flex_container img {
     margin-left: 4px;
     margin-bottom: 3px;
     width: 24%;
+}
+
+footer {
+    background-color: #eeeeee;
+    padding: 41px 0 39px;
+}
+
+.footer {
+    max-width: 770px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer p {
+    color: #505d68;
+    font-size: 16px;
+    font-family: 'Open Sans';
+    font-weight: 300;
 }
